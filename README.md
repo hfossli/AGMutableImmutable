@@ -10,7 +10,7 @@ I feel bad about
 
 - Having to type the name of the property 4 times
 - How important the semantics are (have a look at `AGCar.m`)
-- That the `update:` and `new:` blocks is declared as `id mutableInstance`
+- That the `update:` and `new:` blocks argument is declared as `id mutableInstance`
 - The automagic way of supporting NSCopying - even though it's quite handy
 
 I hope there is some way to solve these issues
