@@ -27,7 +27,7 @@
         car.weightInKiloGrams = 1200.0f;
         car.gotTowBar = YES;
     }];
-    AGCar *granPasCar = [momsCar update:^(AGCar<AGMutableCar> *car) {
+    AGCar *granpasCar = [momsCar update:^(AGCar<AGMutableCar> *car) {
         car.gotTowBar = NO;
     }];
     AGBoat *dadsBoat = [AGBoat new:^(AGBoat <AGMutableBoat>* boat) {
@@ -42,7 +42,7 @@
 
     NSLog(@"Some train: %@", [train dictionaryRepresentation]);
     NSLog(@"Moms car: %@", [momsCar dictionaryRepresentation]);
-    NSLog(@"Granpas car: %@", [granPasCar dictionaryRepresentation]);
+    NSLog(@"Granpas car: %@", [granpasCar dictionaryRepresentation]);
     NSLog(@"Dads boat: %@", [dadsBoat dictionaryRepresentation]);
 
     return YES;
