@@ -14,6 +14,6 @@
 
 @implementation AGCar
 
-@synthesize gotTowBar = _wheelDescription;
+@synthesize gotTowBar = _gotTowBar;
 
 @end
