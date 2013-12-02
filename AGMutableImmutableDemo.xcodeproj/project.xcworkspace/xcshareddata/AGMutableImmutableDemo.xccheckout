@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8AF3C8BF-12D1-4A70-B5E2-85D07DEFD44D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AGMutableImmutableDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A0C0E823-697D-4E64-A362-3A0B001DC008</key>
+		<string>ssh://github.com/hfossli/AGMutableImmutable.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AGMutableImmutableDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A0C0E823-697D-4E64-A362-3A0B001DC008</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/hfossli/AGMutableImmutable.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A0C0E823-697D-4E64-A362-3A0B001DC008</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A0C0E823-697D-4E64-A362-3A0B001DC008</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AGMutableImmutable</string>
+		</dict>
+	</array>
+</dict>
+</plist>

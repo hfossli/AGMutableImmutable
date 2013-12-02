@@ -36,7 +36,7 @@
 #import <Foundation/Foundation.h>
 
 #ifndef AGClassHelperExtendsNSObject
-# define AGClassHelperExtendsNSObject 0
+# define AGClassHelperExtendsNSObject 1
 #endif
 
 @interface AGClassHelper : NSObject
