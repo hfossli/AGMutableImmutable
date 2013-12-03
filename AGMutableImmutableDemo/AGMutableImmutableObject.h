@@ -7,7 +7,7 @@
 @interface AGMutableImmutableObject : NSObject <NSCopying, NSMutableCopying>
 
 + (instancetype)new:(void (^)(id mutableInstance))newBlock;
-- (instancetype)update:(void (^)(id mutableInstance))updateBlock;
+- (instancetype)copyAndModify:(void (^)(id mutableInstance))modificationBlock;
 
 // Subclasses should override this and merge with super
 + (NSArray *)uncodableProperties;

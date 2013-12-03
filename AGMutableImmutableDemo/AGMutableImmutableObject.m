@@ -39,11 +39,11 @@ typedef enum {
     return instance;
 }
 
-- (instancetype)update:(void (^)(id mutableInstance))block
+- (instancetype)copyAndModify:(void (^)(id mutableInstance))modificationBlock
 {
     AGMutableImmutableObject *instance = [self copy];
     instance->_mutabilityState = AGMutabilityTemporary;
-    block(instance);
+    modificationBlock(instance);
     instance->_mutabilityState = AGMutabilityNone;
     return instance;
 }
