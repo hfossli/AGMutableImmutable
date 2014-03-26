@@ -1,6 +1,6 @@
 ### AGMutableImmutable
 
-An attempt to make creation of immutable objects easier when subclassed. If you don't want to support subclassing I recommend doing as with NSParagraphStyle. 
+An attempt to make creation of immutable objects easier when subclassed with properties etc. If you don't want to support subclassing I recommend doing as with NSParagraphStyle. 
 
 Work here is based on http://www.jonmsterling.com/posts/2012-12-27-a-pattern-for-immutability.html
 
